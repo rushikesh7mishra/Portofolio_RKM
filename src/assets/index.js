@@ -14,7 +14,7 @@ import ip from "./ip.png";
 import glu from "./glu.png";
 import snm from "./snm.png";
 import ai from "./ai.png";
-import profile from "./profile.png";
+import profile from "./profile.jpg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";

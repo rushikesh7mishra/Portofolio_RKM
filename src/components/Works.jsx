@@ -16,7 +16,7 @@ import color_sharp from "../assets/color_sharp.png";
 const ExperienceCard = ({ index, title, company_name, icon, iconBg, date, points }) => {
   return (
     <div className='bg-tertiary bg-opacity-70 p-8 rounded-2xl w-full mb-8'>
-      <div className="flex items-start gap-6">
+      <div className="flex items-center lg:items-start gap-6 flex-col lg:flex-row">
         <div 
           className="w-20 h-20 rounded-full flex-shrink-0 flex justify-center items-center"
           style={{ backgroundColor: iconBg }}

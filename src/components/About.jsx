@@ -7,7 +7,7 @@ import { services } from "../constants/constants";
 import { SectionWrapper } from "./hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import Image from "next/image";
-import astronaut from "../assets/profile.png";
+import astronaut from "../assets/profile.jpg";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt 
