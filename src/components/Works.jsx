@@ -31,17 +31,17 @@ const ExperienceCard = ({ index, title, company_name, icon, iconBg, date, points
         </div>
         
         <div className="flex-1">
-          <div className="flex justify-between items-start">
+          <div className="lg:flex md:flex justify-between items-start">
             <div>
-              <h3 className='text-white font-bold text-2xl'>{title}</h3>
-              <p className='text-secondary text-xl font-semibold'>{company_name}</p>
+              <h3 className='text-white font-bold text-2xl mb-2'>{title}</h3>
+              <p className='text-secondary text-xl font-semibold mb-2'>{company_name}</p>
             </div>
-            <p className="text-gray-300 font-medium text-lg bg-black bg-opacity-50 px-3 py-1 rounded-lg">
+            <p className="text-gray-300 font-medium text-lg bg-black bg-opacity-50 px-3 py-1 rounded-lg w-fit">
               {date}
             </p>
           </div>
           
-          <ul className="mt-6 space-y-3">
+          <ul className="mt-3 space-y-3">
             {points.map((point, index) => (
               <li 
                 key={`experience-point-${index}`}

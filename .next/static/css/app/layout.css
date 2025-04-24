@@ -1499,6 +1499,11 @@ video {
     height: 20rem;
   }
 
+  .sm\:w-fit{
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .sm\:px-16{
     padding-left: 4rem;
     padding-right: 4rem;
