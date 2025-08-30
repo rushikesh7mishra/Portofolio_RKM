@@ -37,6 +37,9 @@ export const metadata = {
     icon: "/favicon.ico",
     apple: "/apple-touch-icon.png",
   },
+  verification: {
+    google: "fRXisMVohCOES0n5Zyl4j0KoAYeXtwF9Xw3nyd0x8g8", 
+  },
 };
 
 export default function RootLayout({ children }) {
