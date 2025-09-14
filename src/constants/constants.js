@@ -320,7 +320,7 @@ const experiences = [
     date: "Jul 2024 -Present",
     points: [
       "Developed scalable web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).",
-      "Collaborated with UI/UX designers, product managers, and QA teams to deliver high-performance, user-focused applications, reducing feature delivery time by 30%",
+      "Collaborated with UI/UX designers, product managers, and QA teams to deliver high-performance, user-focused applications.",
       "Designed and implemented RESTful APIs, enhancing communication between backend and frontend systems, resulting in a 40% improvement in data processing speed. ",
       "Utilized Git and GitHub for version control, streamlining collaboration among a team of 5+ developers and reducing code conflicts by 20%. ",
     ],
